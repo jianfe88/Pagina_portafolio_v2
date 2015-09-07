@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'liberation_serifregular';
+    src: url('../../font/LiberationSerif-Regular-webfont.eot');
+    src: url('../../font/LiberationSerif-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../font/LiberationSerif-Regular-webfont.woff') format('woff'),
+         url('../../font/LiberationSerif-Regular-webfont.ttf') format('truetype'),
+         url('../../font/LiberationSerif-Regular-webfont.svg#liberation_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'liberation_serifbold';
+    src: url('../../font/LiberationSerif-Bold-webfont.eot');
+    src: url('../../font/LiberationSerif-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../font/LiberationSerif-Bold-webfont.woff') format('woff'),
+         url('../../font/LiberationSerif-Bold-webfont.ttf') format('truetype'),
+         url('../../font/LiberationSerif-Bold-webfont.svg#liberation_serifbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

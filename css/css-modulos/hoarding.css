@@ -1,0 +1,26 @@
+/********************************************/
+/*skills (Valla Publicitaria)*/
+/********************************************/
+.hoarding{
+	/*background-color: red;*/
+	text-align: center;
+}
+.hoarding-img{
+	/*background-color: pink;*/
+	width: 100%;
+	height:auto;
+}
+/*Media Querys********************/
+/*===============================*/
+@media (min-width: 475px){
+	
+}
+
+@media (min-width: 750px){
+	
+}
+
+@media (min-width: 1020px){
+	
+}
+

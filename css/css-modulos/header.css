@@ -1,0 +1,142 @@
+/*menu de prueba*/
+/*Logo*/
+.logo-wrapper{
+	background-color: rgba(255,255,255,.5);
+	display: block;
+	height: 64px;
+	margin: 8px 0 8px 0;/*64+8+8=80 altura del heeader*/
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 110;
+}
+
+.logo-img{
+	height: 64px;
+}
+/*Fin Logo*/
+
+header {
+	background-color: red;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+
+	/*height: 100px;*/
+}
+
+.menu_bar {
+	background: #F16428;
+	display: block;
+	position: fixed;
+	width: 100%;
+}
+
+.menu_bar .bt-menu {
+	color: #fff;
+	display: block;
+	font-size: 25px;
+	font-weight: bold;
+	overflow: hidden;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.menu_bar span {
+	float: right;
+	font-size: 40px;
+}
+
+
+ 
+
+ 
+
+.nav-superior {
+	max-width: 1440px;
+	background:#33A9DC;
+	display:block;
+	height: 1000px;/*Ipad 1 no renderiza el height:100%*/
+	height: 100%;
+	height: calc(100% - 80px);
+	margin: 0;
+	position: fixed;
+	right:-100%;
+	top:80px; /*Alto del menu_bar*/
+	width: 250px;
+	z-index:105;
+}
+
+.nav-superior li {
+	display: block;
+	border-bottom:1px solid rgba(255,255,255,.5);
+	padding: 1rem;
+}
+
+.nav-superior li:hover {
+		background:#F0DB4F;
+	}
+	 
+.nav-superior a {
+	display: block;
+}
+
+
+#container{
+	position:relative;
+	width: 100%;
+}
+ 
+@media screen and (min-width:940px) {
+	.menu_bar {
+		display:none;
+	}
+	.logo-wrapper{
+		margin-top: 15px;
+		height: 68px;
+	}
+
+	.logo-img{
+	}
+	.nav-superior {
+		background:#33A9DC;
+		display: inline-block;
+		height: auto;
+		left: 0;
+		margin:0 auto;
+		right: 0;
+		text-align: right;
+		top:15px;
+		width:100%;
+	}
+ 
+	.nav-superior ul {
+		/*background-color: pink;*/
+		list-style:none;
+		display: inline-block;
+		margin: 0;
+	}
+ 
+	.nav-superior li {
+		border:none;
+		display:inline-block;
+		padding: 0;
+		position: relative;
+	}
+	 
+	
+	.nav-superior a {
+		color:#fff;
+		display:block;
+		text-decoration:none;
+		padding: 20px;
+	}
+	 
+	.nav-superior span {
+		margin-right:10px;
+	}
+
+}
+ 
+

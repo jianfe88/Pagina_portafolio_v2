@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*Logo*/
+.logo-wrapper{
+	background-color: rgba(255,255,255,.5);
+	display: block;
+	height: 64px;
+	margin: 8px 0 8px 1rem;/*64+8+8=80 altura del heeader*/
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 10000;
+}
+
+.logo-img{
+	height: 64px;
+}
+/*Fin Logo*/
+
+header {
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+}
+
+/*mobil*/
+.menu_bar {
+		display:block;
+		width:100%;
+		position: fixed;
+		background:#F16428;
+	}
+ 
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+ 
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+	}
+ 
+	.nav-superior {
+		background-color: green;
+		width: 80%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
+	}
+ 
+	.nav-superior li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+ 
+	.nav-superior a {
+		display: block;
+	}
+/*fin mobil*/
+
+
+ 
+@media screen and (min-width: 750px) {
+
+	.menu_bar {
+		display:none;
+	}
+
+	.nav-superior {
+		background:#33A9DC;
+		z-index:1000;
+		max-width: 1000px;
+		/*width:70%;*/
+		text-align: right;
+		margin:20px auto;
+	}
+	 
+	.nav-superior ul {
+		background-color: pink;
+		list-style:none;
+		display: inline-block;
+		margin: 0;
+	}
+	 
+	.nav-superior li {
+		display:inline-block;
+		position: relative;
+	}
+	 
+	.nav-superior li:hover {
+		background:#F0DB4F;
+	}
+	 
+	.nav-superior a {
+		color:#fff;
+		display:block;
+		text-decoration:none;
+		padding: 20px;
+	}
+	 
+	.nav-superior span {
+		margin-right:10px;
+	}
+	 
+
+}

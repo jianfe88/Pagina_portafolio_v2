@@ -1,0 +1,39 @@
+Version 1:
++--  Añadir pie de página con formas de contacto.
++--  Alt en las imagenes del learning "Click para acceder a la página del curso."
++--  Modificar titulos de secciones (estética).
++--  Altura item-portfolio en vista desktop.
++--   Color enlaces learning
++--  Añadir un title a las imágenes del enlace learning.
+I.E 11
++--  boton "echar un vistazo" no muestra degradados
+Firefox
+-  Todo parece correcto.
+Chome y Opera
+.--  (Desestimado)No funciona correctamente el juego de opacidades a partir del 3 elemento.
+--   En vista desktop hay una linea que parece ser parte del elemento continuo en el salto de columna.
+
+/****************************** Versión 2 ***********************/
+==================================================================
+ Version 2:
+   Mobile-first:
+     ☐ Barra de navegación
+       ☐ Disposición de elementos
+       ☐ Funcionamiento del boton-menu.
+   ✔ Que la barra de navegacion no oculte la información @done (15-08-21 08:03)
+   ☐ 
+   ☐ Decidir nombre comercial.
+   ☐ Logotipo
+   ☐ Rematar el area de Contacto
+   ☐ Diseño del area de la Valla Publicitaria.
+   ☐ Titulo principal
+   ☐ Pantalla de inicio(hoarding)
+     ☐ Viwport 1440 3*4
+   ✔ Imagenes de portfolio rehacerlas más limpias. @done (15-08-25 17:14)
+   ☐ Separar las secciones de la página claramente.
+   NOTAS:
+     Utilizar los colores oficiales naranja, azul y amarillo.
+     Cuando clicko en contacto mail me abre dos borradores de correo.
+     Mobil- El menu desplegrabe no se oculta despues de clickar.
+     Revisar los iconos del menu.
+     
